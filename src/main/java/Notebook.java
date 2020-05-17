@@ -1,20 +1,20 @@
 public class Notebook {
-    String weight;
+    String weight;//TODO Review: change to int
     int price;
-    int year
+    int year//TODO Review: missing semicolon
 
     public Notebook(String weight, int price, int year) {
         this.weight = weight;
         this.price = price;
         this.year = year;
-
-        public void checkPrice () {
+        //TODO Review: missing } to close constructor
+        public void checkPrice(){
             if (this.price < 600) {
                 System.out.println("This notebook is cheap.");
-            } else if {
-                (this.price > 600 && this.price < 1000)
+            } else if {//TODO Review: remove {
+                (this.price > 600 && this.price < 1000)//TODO Review:  { should be here
                 System.out.println("This price is good.");
-            } else if {
+            } else if {//TODO Review: remove {
                 (this.price > 1000)
                 System.out.println("This notebook is expensive");
             }
@@ -23,10 +23,10 @@ public class Notebook {
         public void checkWeight () {
             if (this.weight < 600) {
                 System.out.println("This notebook is light");
-            } else if {
+            } else if {//TODO Review: remove {
                 (this.weight < 1100)
                 System.out.println("This notebook is not very heavy");
-            } else if {
+            } else if {//TODO Review: remove {
                 (this.weight > 1100)
                 System.out.println("This notebook is heavy");
             }
@@ -34,9 +34,9 @@ public class Notebook {
             public void checkPriceAndYear () {
                 if (this.price < 1000 && this.year < 2010) {
                     System.out.println("This computer is cheep and old");
-                } else if {
+                } else if {//TODO Review: remove {
                     (this price > 1000 && this.year > 2010)
-                    System.out.println("This computer is  expensive and quite new")
+                    System.out.println("This computer is  expensive and quite new")//TODO Review: missing semicolon
                 }
             }
         }
